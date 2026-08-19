@@ -1,0 +1,80 @@
+body{
+  background-color: rosybrown;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.business-card{
+  width: 80%;
+  text-align: center;
+  background-color: #6B4F4F;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 30px;
+}
+
+hr{
+  background-color: rosybrown;
+  border: none;
+  height: 2px;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.contact{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+.about{
+  margin-top:30px;
+  margin-bottom:30px;
+}
+
+img{
+  width: 80%;
+  max-width: 80%;
+}
+
+p{
+  margin-top: 5px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: azure;
+}
+
+a:focus {
+  color: lightgrey;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:link {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.button1{
+  border-radius: 10px;
+  background-color: rosybrown;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+
+}
