@@ -83,7 +83,6 @@ a:link {
 
 @media (max-width: 360px) {
   .business-card {
-    padding: 10px;
   }
   h1 {
     font-size: 1.5rem; /* Shrink text so it doesn't wrap awkwardly */
@@ -97,7 +96,6 @@ a:link {
 /* 2. Standard/Medium Phones (Width between 361px and 410px - e.g., iPhone 13/14/15, Pixel) */
 @media (min-width: 361px) and (max-width: 410px) {
   .business-card {
-    padding: 20px;
   }
   .contact {
     display: flex;
@@ -112,11 +110,6 @@ a:link {
     padding: 25px;
   }
   /* Optional: Make the header section sit side-by-side on larger screens */
-  .business-card section:first-of-type {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
 }
 
 
