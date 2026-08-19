@@ -1,4 +1,4 @@
-
+/*
 
 body{
   background-color: rosybrown;
@@ -79,5 +79,137 @@ a:link {
   padding: 10px 20px;
   font-size: 16px;
 
+}
+*/
+
+body {
+  background-color: rosybrown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+
+.business-card {
+  background-color: #6B4F4F;
+  color: #FFF8F0;          
+  width: 100%;
+  max-width: 420px;        
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 15px;     
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;  
+}
+
+
+hr {
+  background-color: rosybrown;
+  border: none;
+  height: 2px;
+  width: 100%;
+  margin: 15px 0;
+}
+
+.contact, .about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+img {
+  width: 100%;          
+  height: 140px;
+  object-fit: cover;       
+  border-radius:  2%;     
+  border: 3px solid rosybrown;
+  margin: 15px auto;
+}
+
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.6;        
+}
+
+
+.contact a {
+  display: inline-block;
+  margin: 5px 8px;
+  padding: 4px 8px;
+  background-color: rgba(255, 255, 255, 0.1); 
+  border-radius: 4px;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: lightblue;
+}
+
+a:hover {
+  color: white;            
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+a:active {
+  color: azure;
+}
+
+a:focus {
+  color: lightgrey;
+  outline: 1px solid rosybrown;
+}
+
+
+.button1 {
+  border-radius: 10px;
+  background-color: rosybrown;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: transform 0.1s ease;
+}
+
+.button1:hover {
+  background-color: #bc8f8f; 
+  transform: scale(1.03);    
+}
+
+
+@media (max-width: 360px) {
+  .business-card {
+    padding: 15px;
+    font-size: 14px;       
+  }
+  img {
+    width: 110px;
+    height: 110px;         
+  }
+  .contact a {
+    display: block;        
+    margin: 6px 0;
+  }
+}
+
+
+@media (min-width: 415px) {
+  .business-card {
+    padding: 30px;         
+  }
+  p {
+    line-height: 1.8;      
+  }
 }
 
